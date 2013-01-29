@@ -1,0 +1,71 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #fff;
+$value-color:       #fff;
+
+$title-color:       #39a542;
+$label-color:       black;
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-tan {
+  font-size: 0.7em;
+
+  background-color: $background-color;
+  vertical-align: top;
+
+  .title {
+    color: $title-color; 
+  }
+  
+  ul {
+    margin: 0 15px;
+    text-align: left;
+    color: $label-color;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  $badge-size: 30px;
+  .badge {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    width: $badge-size;
+    height: $badge-size;
+    line-height: $badge-size;
+    color: white; 
+  }
+
+  // Custom colors for the line's badges
+  .linefour { background-color: #fbc707; }
+
+  .linethree { background-color: #0077BB; }
+
+  .linetwo { background-color: #E2001A; }
+
+  .terminus {
+    color: $label-color;
+  }
+
+  .temps {
+    float: right;
+    font-weight: 600;
+    color: black;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}

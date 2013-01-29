@@ -1,0 +1,1 @@
+class Dashing.Tan extends Dashing.Widget

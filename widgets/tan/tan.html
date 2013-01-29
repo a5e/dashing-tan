@@ -1,0 +1,16 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul data-foreach-temp="temps">
+  <li>
+    <!-- Custom classes for badges colors -->
+    <span data-bind="temp.ligne.numLigne" 
+    data-addclass-lineFour="temp.lineFour"
+    data-addclass-lineThree="temp.lineThree"
+    data-addclass-lineTwo="temp.lineTwo"
+    class="badge"></span>
+    <span data-bind="temp.terminus" class="terminus"></span>
+    <span data-bind="temp.temps" class="temps"></span>
+  </li>
+</ul>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
